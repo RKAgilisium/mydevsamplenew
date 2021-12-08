@@ -19,5 +19,5 @@ jobs:
         aws-region: ap-south-1
 
     - name: Deploy static site to S3 bucket
-      run: aws s3 sync ./public/ s3://mydevsample --delete
+      run: aws s3 sync ./mydevsamplenew/ s3://mydevsample --delete
 
